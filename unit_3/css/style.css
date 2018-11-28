@@ -1,0 +1,46 @@
+body {
+	background-color: #000;
+}
+
+h1 {
+	color: #1EFF7E;
+	font-family: Arial, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+}
+
+p {
+	color: #04CCCA;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+ul {
+	color: #CC049A;
+	text-align: center;
+	list-style-type: none;
+}
+
+li {
+	text-decoration: underline;
+	text-decoration-color: #FFF;
+	font-size: 16px;
+}
+
+img {
+
+}
+
+#slogan {
+	color: #CC049A;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
