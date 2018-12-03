@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Shrikhand);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
+body {
+	background-color: #000;
+}
+
+h1, h2, h3 {
+	color: #1EFF7E;
+	font-family: Shrikhand, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2, h3 {
+	color: #1EFF7E;
+	font-family: Shrikhand, sans-serif;
+}
+
+p {
+	color: #04CCCA;
+	font-family: Bitter, sans-serif;
+	font-size: 18px;
+}
+
+ul {
+	color: #CC049A;
+	list-style-type: none;
+}
+
+li {
+	text-decoration-color: #FFF;
+	font-size: 16px;
+}
+
+a {
+	font-style: italic;
+}
+#about {
+	height: 100px;
+	width: auto;
+}
+
+#slogan {
+	color: #CC049A;
+	font-family: Bitter, sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
