@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Shrikhand);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+/*
+* {
+	margin: 0;
+	padding: 20px;
+	box-sizing: border-box;
+}
+*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+img {
+	width: 15%;
+}
+
+body {
+	background:purple;
+	font-family:"Bitter";
+	font-size:16px;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 60%;
+	background-color: white;
+}
+
+header h1{
+	background: purple;
+	float:left;
+	width:30%;
+	height:100px;
+	line-height: 50px;
+	text-align:center;
+	font-family: "Shrikhand";
+	font-size:44px;
+	word-break: normal;
+	padding:100px 0;
+	border: 4px solid white;
+}
+
+header img {
+	float:right;
+	width:68%;
+	height:300px;
+	border:4px solid white;
+}
+
+header div {
+	background:gray;
+	padding:20px;
+}
+
+#slogan {
+	font-family: "Shrikhand";
+	font-size: 28px;
+	font-style: italic;
+	text-align: center;
+	padding:5px;
+	border: 10px solid black;
+	background: white;
+}
+
+nav p {
+    background-color: gray;
+    border: 1px black solid;
+    padding: 16px 14px;
+    float: left;
+    display: block;
+    width:48%;
+    font-size:20px;
+}
+nav a {
+    background-color: silver;
+    border: 1px black solid;
+    padding: 18px 17px;
+    float: left;
+    display: block;
+    width:12%;
+    text-align: center;
+    color: purple;
+}
+
+nav a:hover {
+	background-color: purple;
+	color:black;
+	font-size: 24px;
+	padding: 14px 17px;
+}
+
+
+
+
+
+
+#fresh {
+	float: left;
+	width: 50%;
+	margin: 5% 2%;
+}
+#moreinfo {
+	float: right;
+	width: 30%;
+	margin: 5% 2% 5% 0;
+}
+
+#aboutme img {
+	float: left;
+}
+
+#recents article {
+	float:left;
+	width:40%;
+	margin:2%;
+	height:300px;
+}
+
+
+
+
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding:20px;
+}
+
+
+
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding:20px;
+}
