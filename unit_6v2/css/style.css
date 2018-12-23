@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+/*------------------
+      GENERAL
+------------------*/
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+body {
+	font-family: "Bitter", sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+	background: purple;
+}
+h3 {
+	font-family: "Sigmar One", serif;
+	font-size:24px;
+	padding: .5em 0;
+}
+article a {
+	color: black;
+}
+
+/*------------------
+       HEADER
+------------------*/
+header {
+    background-color: #800080;
+    width: 100%;
+}
+header img {
+	width: 60%;
+	margin: 0 20%;
+}
+header h1 {
+	font-family: "Sigmar One", serif;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	line-height: 1em;
+	padding-top: .5em;
+}
+#slogan {
+	width: 60%;
+	text-align: center;
+	padding: 1em;
+	font-family: "Sigmar One", serif;
+	font-size: 26px;
+	color: white;
+}
+
+/*------------------
+        NAV
+------------------*/
+nav {
+	width: 100%;
+	background: silver;
+    font-size: 20px;
+    line-height: 3em;
+    border-top: .5em solid black;
+    border-bottom: .5em solid black;
+}
+nav p {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+nav a {
+	padding: 0 1.5em;
+	color: #000;
+}
+nav a:hover {
+	background: #800080;
+	color: #fff;
+}
+
+/*------------------
+       MAIN
+------------------*/
+#main {
+	width: 100%;
+}
+/*------------------
+ FRESH FROM THE OVEN
+------------------*/
+#fresh {
+	width: 100%;
+	background: purple;
+}
+#fresh h2 {
+	font-family: "Sigmar One", serif;
+	font-size: 60px;
+	color: white;
+	padding: 1em 0 .5em 0;
+	line-height: 1em;
+	text-align: center;
+}
+#fresh article {
+	width: 60%;
+	background: silver;
+	padding: 2em;
+}
+#fresh img {
+	width: 100%;
+}
+/*------------------
+     MORE INFO
+------------------*/
+#moreinfo {
+	width: 60%;
+	background: purple;
+	padding-top: 2em;
+	padding-bottom: 6em;
+}
+#moreinfo h2 {
+	font-family: "Sigmar One", serif;
+	font-size: 40px;
+	padding: 0 0 .5em 0;
+	line-height: 1.3em;
+	text-align: center;
+}
+#aboutme {
+	float:left;
+	width: 48%;
+	padding: 1em 2em;
+	background: silver;
+	border: 2em solid purple;
+	min-height: 28em;
+}
+#bakerpic {
+	float: left;
+	width: 45%;
+	padding: 0 1em 1em 0;
+}
+#newsletter {
+	float: right;
+	width: 48%;
+	padding: 1em 2em;
+	background: silver;
+	border: 2em solid purple;
+	min-height: 28em;
+}
+
+/*---------------------
+     MORE FAVORITES
+----------------------*/
+#morefavorites h2 {
+	background: silver;
+	font-family: "Sigmar One", serif;
+	font-size: 52px;
+	line-height: 1.3em;
+	text-align: center;
+	border-top: .1em solid black;
+    border-bottom: .1em solid black;
+}
+#recents {
+	background: purple;
+	width: 90%;
+	padding: 3em;
+}
+#recents article {
+	float: left;
+	background: silver;
+	width: 33.33333%;
+	min-height: 36em;
+	padding: 1em;
+	border: 20px solid purple;
+	display: inline-block;
+}
+#recents article img {
+	width: 100%;
+}
+.shadow {
+	box-shadow: 30px 30px black;
+}
+
+/*-----------------
+      CONTACT
+-----------------*/
+#contact {
+	text-align: center;
+	padding: 2em 0 1em 0;
+	color: white;
+	line-height: 1.5em;
+}
+#contact a {
+	color: white;
+}
+
+
+
+
+
