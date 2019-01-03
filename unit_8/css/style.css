@@ -310,7 +310,11 @@ article.shadow:hover {
 	}
 }
 
-
+@media only screen and (min-width: 1475px) {
+	#recents {
+		max-width: 1296px;
+	}
+}
 
 
 
